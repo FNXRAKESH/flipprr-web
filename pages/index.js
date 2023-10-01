@@ -9,6 +9,7 @@ import FastTransfer from "@/components/fastTransfer";
 import BankLevelSecurity from "@/components/BankLevelSecurity";
 import CompetitiveRates from "@/components/CompetitiveRates";
 import Tracking from "@/components/Tracking";
+import HowItWorks from "@/components/how-it-works";
  
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <BankLevelSecurity />
         <CompetitiveRates />
         <Tracking />
+        <HowItWorks />
         <Contact />
       </main>
       <hr />

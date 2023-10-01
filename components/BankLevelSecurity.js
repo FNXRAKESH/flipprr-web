@@ -34,7 +34,7 @@ const BankLevelSecurity = () => {
 
         <Lottie animationData={animationData} loop autoPlay />
       </div>
-      <div className="flex lg:flex-nowrap flex-wrap gap-10 my-12 justify-center">
+      <div className="flex xl:flex-nowrap flex-wrap gap-10 my-12 justify-center">
         <Card className="max-w-[400px]">
           <CardHeader className="flex gap-3">
             <div className="svgContainer">

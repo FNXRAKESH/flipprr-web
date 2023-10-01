@@ -20,7 +20,7 @@ import { MoneyTransferSVG } from "@/public/svg/MoneyTransfer";
  
 const FastTransfer = () => {
   return (
-    <>
+    <div id='features'>
       <div className="grid lg:grid-cols-2 gap-2 overflow-y-auto items-center">
         <div>
           <h1 className="text-4xl text-amber-500 text-center" color="warning">
@@ -35,7 +35,7 @@ const FastTransfer = () => {
 
         <Lottie animationData={animationData2} loop autoPlay />
       </div>
-      <div className="flex lg:flex-nowrap flex-wrap gap-10 my-12 justify-center">
+      <div className="flex xl:flex-nowrap flex-wrap gap-10 my-12 justify-center">
         <Card className="max-w-[400px]">
           <CardHeader className="flex gap-3">
             <div className="svgContainer">
@@ -99,7 +99,7 @@ const FastTransfer = () => {
           </CardBody>
         </Card>
       </div>
-    </>
+    </div>
   );
 };
 

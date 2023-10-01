@@ -12,9 +12,9 @@ import { PlayStore } from "@/public/svg/PlayStore";
 export default function Footer() {
   const { theme, setTheme } = useTheme("light");
   return (
-    <div className="container mx-auto py-5">
+    <div className="container mx-auto pt-5">
       <div className="flex px-5 lg:flex-nowrap flex-wrap lg:justify-start justify-center">
-        <div className="flex-none h-14 ...">
+        <div className="flex-none h-14">
           {theme === "light" ? (
             <Image src={flipprrBlack} alt="flipprr" />
           ) : (

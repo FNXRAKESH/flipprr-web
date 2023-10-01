@@ -39,3 +39,32 @@ padding-top: 0 !important;
   justify-content: center;
   align-items: center;
 }
+.fade-in{
+  opacity: 1 !important;
+  /* transform:translateY(0) !important; */
+  
+}
+
+.steps{
+  opacity: 0;
+  transform:translateY(50px);
+  transition: all 1s ease-out;
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: center;
+}
+
+ 
+.listContainer p{
+    color: #f5a524;
+    opacity: 1;
+}
+
+ @media screen and (max-width:524px) {
+    .steps {
+      height: 60vh;
+      justify-content: flex-start;
+    }
+ }
